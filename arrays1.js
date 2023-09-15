@@ -33,10 +33,15 @@ function checkLength(array) {
 }
 console.log(checkLength(numbers));
 
+//console.log("Q9:");
+//const temperatures = [72, 68, 74, 80, 76];
+//temperatures.sort();
+//console.log(temperatures[temperatures.length - 1]);
+
 console.log("Q9:");
 const temperatures = [72, 68, 74, 80, 76];
-temperatures.sort();
-console.log(temperatures[temperatures.length - 1]);
+let max = Math.max(...temperatures);
+console.log(`Max value is ${max}`);
 
 console.log("Q10:");
 const nums = ["apple", "banana", "cherry"];
